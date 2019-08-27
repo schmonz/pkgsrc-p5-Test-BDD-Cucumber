@@ -1,12 +1,13 @@
-# $NetBSD: Makefile,v 1.32 2019/04/11 16:46:36 schmonz Exp $
+# $NetBSD: Makefile,v 1.34 2019/08/11 13:20:27 wiz Exp $
 
 DISTNAME=		Test-BDD-Cucumber-0.57
 PKGNAME=		p5-${DISTNAME}
+PKGREVISION=		1
 CATEGORIES=		devel perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Test/}
 
 MAINTAINER=		schmonz@NetBSD.org
-HOMEPAGE=		http://search.cpan.org/dist/Test-BDD-Cucumber/
+HOMEPAGE=		https://metacpan.org/release/Test-BDD-Cucumber
 COMMENT=		Feature-complete Cucumber-style testing in Perl
 LICENSE=		${PERL5_LICENSE}
 
