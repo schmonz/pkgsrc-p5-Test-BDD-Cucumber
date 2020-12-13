@@ -1,6 +1,6 @@
-# $NetBSD: Makefile,v 1.45 2020/08/30 09:02:44 schmonz Exp $
+# $NetBSD: Makefile,v 1.47 2020/12/13 06:41:00 schmonz Exp $
 
-DISTNAME=		Test-BDD-Cucumber-0.73
+DISTNAME=		Test-BDD-Cucumber-0.74
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		devel perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Test/}
